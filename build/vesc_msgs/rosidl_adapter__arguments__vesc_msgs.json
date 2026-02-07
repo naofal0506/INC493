@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/vesc/vesc_msgs:msg/VescState.msg",
+    "/root/ros2_ws/src/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/root/ros2_ws/src/vesc/vesc_msgs:msg/VescImu.msg",
+    "/root/ros2_ws/src/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

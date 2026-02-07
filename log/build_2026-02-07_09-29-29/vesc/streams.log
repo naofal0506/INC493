@@ -1,0 +1,42 @@
+[0.080s] Invoking command in '/root/ros2_ws/build/vesc': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc
+[0.635s] -- The C compiler identification is GNU 9.4.0
+[0.849s] -- The CXX compiler identification is GNU 9.4.0
+[0.878s] -- Check for working C compiler: /usr/bin/cc
+[1.130s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.136s] -- Detecting C compiler ABI info
+[1.389s] -- Detecting C compiler ABI info - done
+[1.438s] -- Detecting C compile features
+[1.440s] -- Detecting C compile features - done
+[1.452s] -- Check for working CXX compiler: /usr/bin/c++
+[1.735s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.738s] -- Detecting CXX compiler ABI info
+[2.024s] -- Detecting CXX compiler ABI info - done
+[2.072s] -- Detecting CXX compile features
+[2.074s] -- Detecting CXX compile features - done
+[2.099s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.314s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.315s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.672s] -- Configuring done
+[3.680s] -- Generating done
+[3.683s] -- Build files have been written to: /root/ros2_ws/build/vesc
+[3.696s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/vesc/vesc -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc
+[3.699s] Invoking command in '/root/ros2_ws/build/vesc': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/vesc -- -j4 -l4
+[3.848s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/vesc -- -j4 -l4
+[3.917s] Invoking command in '/root/ros2_ws/build/vesc': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/vesc
+[3.950s] -- Install configuration: ""
+[3.951s] -- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[3.951s] -- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[3.952s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[3.953s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[3.953s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/path.sh
+[3.954s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/path.dsv
+[3.954s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.bash
+[3.955s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.sh
+[3.956s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.zsh
+[3.956s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.dsv
+[3.956s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/package.dsv
+[3.957s] -- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[3.958s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[3.958s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[3.959s] -- Installing: /root/ros2_ws/install/vesc/share/vesc/package.xml
+[3.975s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/vesc

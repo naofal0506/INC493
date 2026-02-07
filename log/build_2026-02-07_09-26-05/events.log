@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.000807] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs')])}
+[0.001837] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs')])}
+[0.001975] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs'), ('vesc_ackermann', '/root/ros2_ws/install/vesc_ackermann'), ('vesc_driver', '/root/ros2_ws/install/vesc_driver')])}
+[0.002094] (vesc_ackermann) JobStarted: {'identifier': 'vesc_ackermann'}
+[0.099576] (-) TimerEvent: {}
+[0.139369] (vesc_ackermann) JobEnded: {'identifier': 'vesc_ackermann', 'rc': 1}
+[0.152529] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[0.196299] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 1}
+[0.199719] (-) TimerEvent: {}
+[0.207791] (vesc) JobSkipped: {'identifier': 'vesc'}
+[0.208028] (-) EventReactorShutdown: {}

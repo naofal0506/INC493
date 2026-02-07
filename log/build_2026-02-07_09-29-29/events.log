@@ -1,0 +1,1622 @@
+[0.000000] (-) TimerEvent: {}
+[0.002969] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.003141] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs')])}
+[0.003291] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs')])}
+[0.003438] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('vesc_msgs', '/root/ros2_ws/install/vesc_msgs'), ('vesc_ackermann', '/root/ros2_ws/install/vesc_ackermann'), ('vesc_driver', '/root/ros2_ws/install/vesc_driver')])}
+[0.003625] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.070580] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[0.071955] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/vesc/vesc_msgs', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc_msgs'], 'cwd': '/root/ros2_ws/build/vesc_msgs', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099101] (-) TimerEvent: {}
+[0.200007] (-) TimerEvent: {}
+[0.300730] (-) TimerEvent: {}
+[0.401401] (-) TimerEvent: {}
+[0.502063] (-) TimerEvent: {}
+[0.602720] (-) TimerEvent: {}
+[0.703518] (-) TimerEvent: {}
+[0.804232] (-) TimerEvent: {}
+[0.818054] (vesc_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.904495] (-) TimerEvent: {}
+[1.005170] (-) TimerEvent: {}
+[1.105850] (-) TimerEvent: {}
+[1.206563] (-) TimerEvent: {}
+[1.284909] (vesc_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.306866] (-) TimerEvent: {}
+[1.317517] (vesc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.407027] (-) TimerEvent: {}
+[1.509232] (-) TimerEvent: {}
+[1.581962] (vesc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.587363] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.609406] (-) TimerEvent: {}
+[1.710497] (-) TimerEvent: {}
+[1.811291] (-) TimerEvent: {}
+[1.835045] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.888695] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.890905] (vesc_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.904620] (vesc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.911454] (-) TimerEvent: {}
+[2.014448] (-) TimerEvent: {}
+[2.115157] (-) TimerEvent: {}
+[2.183620] (vesc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.187287] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.215436] (-) TimerEvent: {}
+[2.316015] (-) TimerEvent: {}
+[2.416770] (-) TimerEvent: {}
+[2.466248] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.514464] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.516346] (vesc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.516778] (-) TimerEvent: {}
+[2.534443] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[2.617010] (-) TimerEvent: {}
+[2.669597] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.670220] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.717197] (-) TimerEvent: {}
+[2.817863] (-) TimerEvent: {}
+[2.918564] (-) TimerEvent: {}
+[3.019321] (-) TimerEvent: {}
+[3.119995] (-) TimerEvent: {}
+[3.220574] (-) TimerEvent: {}
+[3.321243] (-) TimerEvent: {}
+[3.421986] (-) TimerEvent: {}
+[3.522674] (-) TimerEvent: {}
+[3.623416] (-) TimerEvent: {}
+[3.694486] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.723618] (-) TimerEvent: {}
+[3.740022] (vesc_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.823798] (-) TimerEvent: {}
+[3.924447] (-) TimerEvent: {}
+[4.025126] (-) TimerEvent: {}
+[4.125974] (-) TimerEvent: {}
+[4.196566] (vesc_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.226243] (-) TimerEvent: {}
+[4.317623] (vesc_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.326399] (-) TimerEvent: {}
+[4.427155] (-) TimerEvent: {}
+[4.527873] (-) TimerEvent: {}
+[4.628504] (-) TimerEvent: {}
+[4.723849] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.728611] (-) TimerEvent: {}
+[4.829186] (-) TimerEvent: {}
+[4.929845] (-) TimerEvent: {}
+[5.030530] (-) TimerEvent: {}
+[5.131213] (-) TimerEvent: {}
+[5.232227] (-) TimerEvent: {}
+[5.296909] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[5.332450] (-) TimerEvent: {}
+[5.433135] (-) TimerEvent: {}
+[5.533760] (-) TimerEvent: {}
+[5.634410] (-) TimerEvent: {}
+[5.735114] (-) TimerEvent: {}
+[5.835809] (-) TimerEvent: {}
+[5.936453] (-) TimerEvent: {}
+[5.970812] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.036720] (-) TimerEvent: {}
+[6.137378] (-) TimerEvent: {}
+[6.238019] (-) TimerEvent: {}
+[6.338726] (-) TimerEvent: {}
+[6.439498] (-) TimerEvent: {}
+[6.540184] (-) TimerEvent: {}
+[6.640903] (-) TimerEvent: {}
+[6.741567] (-) TimerEvent: {}
+[6.842305] (-) TimerEvent: {}
+[6.943025] (-) TimerEvent: {}
+[7.043700] (-) TimerEvent: {}
+[7.144450] (-) TimerEvent: {}
+[7.158662] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.244672] (-) TimerEvent: {}
+[7.345389] (-) TimerEvent: {}
+[7.446050] (-) TimerEvent: {}
+[7.546712] (-) TimerEvent: {}
+[7.647463] (-) TimerEvent: {}
+[7.710295] (vesc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.747661] (-) TimerEvent: {}
+[7.811140] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.822429] (vesc_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[7.847907] (-) TimerEvent: {}
+[7.925511] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.926409] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.926941] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.927397] (vesc_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[7.948069] (-) TimerEvent: {}
+[8.014829] (vesc_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.048233] (-) TimerEvent: {}
+[8.148866] (-) TimerEvent: {}
+[8.249513] (-) TimerEvent: {}
+[8.350148] (-) TimerEvent: {}
+[8.390039] (vesc_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.450320] (-) TimerEvent: {}
+[8.540059] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.550605] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.551381] (-) TimerEvent: {}
+[8.558106] (vesc_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.587849] (vesc_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.651572] (-) TimerEvent: {}
+[8.752265] (-) TimerEvent: {}
+[8.852957] (-) TimerEvent: {}
+[8.860299] (vesc_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.871134] (vesc_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/vesc_msgs\n'}
+[8.906682] (vesc_msgs) CommandEnded: {'returncode': 0}
+[8.908740] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[8.912366] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/vesc_msgs', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/vesc_msgs', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.953407] (-) TimerEvent: {}
+[9.054207] (-) TimerEvent: {}
+[9.067073] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__cpp\x1b[0m\n'}
+[9.068821] (vesc_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.110883] (vesc_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.154481] (-) TimerEvent: {}
+[9.255229] (-) TimerEvent: {}
+[9.355941] (-) TimerEvent: {}
+[9.456651] (-) TimerEvent: {}
+[9.557268] (-) TimerEvent: {}
+[9.657880] (-) TimerEvent: {}
+[9.758585] (-) TimerEvent: {}
+[9.859328] (-) TimerEvent: {}
+[9.959991] (-) TimerEvent: {}
+[10.060611] (-) TimerEvent: {}
+[10.161316] (-) TimerEvent: {}
+[10.261985] (-) TimerEvent: {}
+[10.362607] (-) TimerEvent: {}
+[10.463266] (-) TimerEvent: {}
+[10.563874] (-) TimerEvent: {}
+[10.664518] (-) TimerEvent: {}
+[10.765195] (-) TimerEvent: {}
+[10.865846] (-) TimerEvent: {}
+[10.966468] (-) TimerEvent: {}
+[11.067272] (-) TimerEvent: {}
+[11.167885] (-) TimerEvent: {}
+[11.269387] (-) TimerEvent: {}
+[11.370059] (-) TimerEvent: {}
+[11.470698] (-) TimerEvent: {}
+[11.571382] (-) TimerEvent: {}
+[11.672012] (-) TimerEvent: {}
+[11.772661] (-) TimerEvent: {}
+[11.874692] (-) TimerEvent: {}
+[11.976561] (-) TimerEvent: {}
+[12.078915] (-) TimerEvent: {}
+[12.140427] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target vesc_msgs__cpp\n'}
+[12.156100] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_generator_c\x1b[0m\n'}
+[12.179085] (-) TimerEvent: {}
+[12.199002] (vesc_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.199975] (vesc_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.204656] (vesc_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.279260] (-) TimerEvent: {}
+[12.313644] (vesc_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__functions.c.o\x1b[0m\n'}
+[12.379428] (-) TimerEvent: {}
+[12.480068] (-) TimerEvent: {}
+[12.581597] (-) TimerEvent: {}
+[12.638347] (vesc_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__functions.c.o\x1b[0m\n'}
+[12.681787] (-) TimerEvent: {}
+[12.782512] (-) TimerEvent: {}
+[12.884090] (-) TimerEvent: {}
+[12.893433] (vesc_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__functions.c.o\x1b[0m\n'}
+[12.984262] (-) TimerEvent: {}
+[13.087679] (-) TimerEvent: {}
+[13.149393] (vesc_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c.o\x1b[0m\n'}
+[13.187862] (-) TimerEvent: {}
+[13.289863] (-) TimerEvent: {}
+[13.385407] (vesc_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libvesc_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[13.390030] (-) TimerEvent: {}
+[13.491463] (-) TimerEvent: {}
+[13.592222] (-) TimerEvent: {}
+[13.595721] (vesc_msgs) StdoutLine: {'line': b'[ 18%] Built target vesc_msgs__rosidl_generator_c\n'}
+[13.646104] (vesc_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.692393] (-) TimerEvent: {}
+[13.793881] (-) TimerEvent: {}
+[13.894533] (-) TimerEvent: {}
+[13.995951] (-) TimerEvent: {}
+[14.097895] (-) TimerEvent: {}
+[14.199995] (-) TimerEvent: {}
+[14.301899] (-) TimerEvent: {}
+[14.404187] (-) TimerEvent: {}
+[14.507793] (-) TimerEvent: {}
+[14.609517] (-) TimerEvent: {}
+[14.710758] (-) TimerEvent: {}
+[14.811876] (-) TimerEvent: {}
+[14.815348] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.898099] (vesc_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[14.912050] (-) TimerEvent: {}
+[15.013908] (-) TimerEvent: {}
+[15.113342] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[15.114012] (-) TimerEvent: {}
+[15.189254] (vesc_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[15.214200] (-) TimerEvent: {}
+[15.316097] (-) TimerEvent: {}
+[15.341388] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.416279] (-) TimerEvent: {}
+[15.445251] (vesc_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[15.516465] (-) TimerEvent: {}
+[15.618560] (-) TimerEvent: {}
+[15.739327] (-) TimerEvent: {}
+[15.841293] (-) TimerEvent: {}
+[15.942918] (-) TimerEvent: {}
+[16.044684] (-) TimerEvent: {}
+[16.147023] (-) TimerEvent: {}
+[16.248978] (-) TimerEvent: {}
+[16.328940] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[16.349185] (-) TimerEvent: {}
+[16.400089] (vesc_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o\x1b[0m\n'}
+[16.449381] (-) TimerEvent: {}
+[16.551384] (-) TimerEvent: {}
+[16.556275] (vesc_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.575266] (vesc_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.651584] (-) TimerEvent: {}
+[16.660344] (vesc_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.703061] (vesc_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[16.751767] (-) TimerEvent: {}
+[16.850805] (vesc_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[16.851897] (-) TimerEvent: {}
+[16.956597] (-) TimerEvent: {}
+[17.016747] (vesc_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.056783] (-) TimerEvent: {}
+[17.159104] (-) TimerEvent: {}
+[17.225682] (vesc_msgs) StdoutLine: {'line': b'[ 38%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[17.259321] (-) TimerEvent: {}
+[17.282034] (vesc_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[17.370996] (-) TimerEvent: {}
+[17.476897] (-) TimerEvent: {}
+[17.581230] (-) TimerEvent: {}
+[17.683645] (-) TimerEvent: {}
+[17.787110] (-) TimerEvent: {}
+[17.895569] (-) TimerEvent: {}
+[17.943827] (vesc_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o\x1b[0m\n'}
+[17.995869] (-) TimerEvent: {}
+[18.096700] (-) TimerEvent: {}
+[18.118525] (vesc_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[18.196893] (-) TimerEvent: {}
+[18.219610] (vesc_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[18.297084] (-) TimerEvent: {}
+[18.397862] (-) TimerEvent: {}
+[18.499133] (-) TimerEvent: {}
+[18.600781] (-) TimerEvent: {}
+[18.702993] (-) TimerEvent: {}
+[18.803916] (-) TimerEvent: {}
+[18.907620] (-) TimerEvent: {}
+[18.962464] (vesc_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[19.007812] (-) TimerEvent: {}
+[19.109110] (-) TimerEvent: {}
+[19.209902] (-) TimerEvent: {}
+[19.311588] (-) TimerEvent: {}
+[19.413203] (-) TimerEvent: {}
+[19.514936] (-) TimerEvent: {}
+[19.548586] (vesc_msgs) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.615095] (-) TimerEvent: {}
+[19.717118] (-) TimerEvent: {}
+[19.812234] (vesc_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.817307] (-) TimerEvent: {}
+[19.918013] (-) TimerEvent: {}
+[20.020333] (-) TimerEvent: {}
+[20.121040] (-) TimerEvent: {}
+[20.134233] (vesc_msgs) StdoutLine: {'line': b'[ 50%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[20.152096] (vesc_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o\x1b[0m\n'}
+[20.193189] (vesc_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o\x1b[0m\n'}
+[20.221200] (-) TimerEvent: {}
+[20.324613] (-) TimerEvent: {}
+[20.426245] (-) TimerEvent: {}
+[20.528276] (-) TimerEvent: {}
+[20.542704] (vesc_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.628463] (-) TimerEvent: {}
+[20.728358] (vesc_msgs) StdoutLine: {'line': b'[ 56%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[20.729012] (-) TimerEvent: {}
+[20.830973] (-) TimerEvent: {}
+[20.931617] (-) TimerEvent: {}
+[21.032280] (-) TimerEvent: {}
+[21.133013] (-) TimerEvent: {}
+[21.233744] (-) TimerEvent: {}
+[21.334410] (-) TimerEvent: {}
+[21.436575] (-) TimerEvent: {}
+[21.537290] (-) TimerEvent: {}
+[21.637962] (-) TimerEvent: {}
+[21.738683] (-) TimerEvent: {}
+[21.839563] (-) TimerEvent: {}
+[21.940397] (-) TimerEvent: {}
+[22.042697] (-) TimerEvent: {}
+[22.143465] (-) TimerEvent: {}
+[22.244147] (-) TimerEvent: {}
+[22.295635] (vesc_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.344326] (-) TimerEvent: {}
+[22.349767] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[22.425525] (vesc_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o\x1b[0m\n'}
+[22.426405] (vesc_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o\x1b[0m\n'}
+[22.439266] (vesc_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o\x1b[0m\n'}
+[22.444503] (-) TimerEvent: {}
+[22.546975] (-) TimerEvent: {}
+[22.594812] (vesc_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o\x1b[0m\n'}
+[22.647194] (-) TimerEvent: {}
+[22.692820] (vesc_msgs) StdoutLine: {'line': b'[ 65%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.747368] (-) TimerEvent: {}
+[22.752406] (vesc_msgs) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.759248] (vesc_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.847595] (-) TimerEvent: {}
+[22.890910] (vesc_msgs) StdoutLine: {'line': b'[ 69%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[22.947743] (-) TimerEvent: {}
+[23.048374] (-) TimerEvent: {}
+[23.149017] (-) TimerEvent: {}
+[23.249685] (-) TimerEvent: {}
+[23.350295] (-) TimerEvent: {}
+[23.450972] (-) TimerEvent: {}
+[23.551622] (-) TimerEvent: {}
+[23.652292] (-) TimerEvent: {}
+[23.752980] (-) TimerEvent: {}
+[23.853637] (-) TimerEvent: {}
+[23.954328] (-) TimerEvent: {}
+[24.054971] (-) TimerEvent: {}
+[24.155659] (-) TimerEvent: {}
+[24.256313] (-) TimerEvent: {}
+[24.356976] (-) TimerEvent: {}
+[24.457599] (-) TimerEvent: {}
+[24.558175] (-) TimerEvent: {}
+[24.658817] (-) TimerEvent: {}
+[24.759396] (-) TimerEvent: {}
+[24.860005] (-) TimerEvent: {}
+[24.960638] (-) TimerEvent: {}
+[25.061222] (-) TimerEvent: {}
+[25.161928] (-) TimerEvent: {}
+[25.262624] (-) TimerEvent: {}
+[25.332357] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[25.362829] (-) TimerEvent: {}
+[25.430745] (vesc_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o\x1b[0m\n'}
+[25.441436] (vesc_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[25.443373] (vesc_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o\x1b[0m\n'}
+[25.451292] (vesc_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[25.463015] (-) TimerEvent: {}
+[25.564617] (-) TimerEvent: {}
+[25.665395] (-) TimerEvent: {}
+[25.766928] (-) TimerEvent: {}
+[25.868513] (-) TimerEvent: {}
+[25.970145] (-) TimerEvent: {}
+[26.071849] (-) TimerEvent: {}
+[26.173334] (-) TimerEvent: {}
+[26.274062] (-) TimerEvent: {}
+[26.375525] (-) TimerEvent: {}
+[26.478933] (-) TimerEvent: {}
+[26.582939] (-) TimerEvent: {}
+[26.686928] (-) TimerEvent: {}
+[26.788539] (-) TimerEvent: {}
+[26.890101] (-) TimerEvent: {}
+[26.990868] (-) TimerEvent: {}
+[27.093315] (-) TimerEvent: {}
+[27.194038] (-) TimerEvent: {}
+[27.296296] (-) TimerEvent: {}
+[27.398469] (-) TimerEvent: {}
+[27.499239] (-) TimerEvent: {}
+[27.599971] (-) TimerEvent: {}
+[27.656790] (vesc_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[27.700145] (-) TimerEvent: {}
+[27.800992] (-) TimerEvent: {}
+[27.901741] (-) TimerEvent: {}
+[28.001700] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[28.002299] (-) TimerEvent: {}
+[28.037431] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs\x1b[0m\n'}
+[28.075926] (vesc_msgs) StdoutLine: {'line': b'[ 78%] Built target vesc_msgs\n'}
+[28.102605] (-) TimerEvent: {}
+[28.111785] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__py\x1b[0m\n'}
+[28.151714] (vesc_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[28.202922] (-) TimerEvent: {}
+[28.303519] (-) TimerEvent: {}
+[28.404199] (-) TimerEvent: {}
+[28.504915] (-) TimerEvent: {}
+[28.605599] (-) TimerEvent: {}
+[28.706193] (-) TimerEvent: {}
+[28.806881] (-) TimerEvent: {}
+[28.907523] (-) TimerEvent: {}
+[29.008180] (-) TimerEvent: {}
+[29.108882] (-) TimerEvent: {}
+[29.209527] (-) TimerEvent: {}
+[29.310193] (-) TimerEvent: {}
+[29.410859] (-) TimerEvent: {}
+[29.511529] (-) TimerEvent: {}
+[29.612133] (-) TimerEvent: {}
+[29.712745] (-) TimerEvent: {}
+[29.813351] (-) TimerEvent: {}
+[29.914011] (-) TimerEvent: {}
+[30.014628] (-) TimerEvent: {}
+[30.115380] (-) TimerEvent: {}
+[30.216055] (-) TimerEvent: {}
+[30.316714] (-) TimerEvent: {}
+[30.417311] (-) TimerEvent: {}
+[30.517962] (-) TimerEvent: {}
+[30.618607] (-) TimerEvent: {}
+[30.719288] (-) TimerEvent: {}
+[30.819925] (-) TimerEvent: {}
+[30.920619] (-) TimerEvent: {}
+[31.021310] (-) TimerEvent: {}
+[31.121954] (-) TimerEvent: {}
+[31.222595] (-) TimerEvent: {}
+[31.323270] (-) TimerEvent: {}
+[31.423905] (-) TimerEvent: {}
+[31.524550] (-) TimerEvent: {}
+[31.625180] (-) TimerEvent: {}
+[31.725815] (-) TimerEvent: {}
+[31.826476] (-) TimerEvent: {}
+[31.927190] (-) TimerEvent: {}
+[32.027859] (-) TimerEvent: {}
+[32.128575] (-) TimerEvent: {}
+[32.229186] (-) TimerEvent: {}
+[32.329799] (-) TimerEvent: {}
+[32.430424] (-) TimerEvent: {}
+[32.531098] (-) TimerEvent: {}
+[32.631760] (-) TimerEvent: {}
+[32.732350] (-) TimerEvent: {}
+[32.832940] (-) TimerEvent: {}
+[32.933621] (-) TimerEvent: {}
+[33.034269] (-) TimerEvent: {}
+[33.135003] (-) TimerEvent: {}
+[33.190163] (vesc_msgs) StdoutLine: {'line': b'[ 80%] Built target vesc_msgs__py\n'}
+[33.225597] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__python\x1b[0m\n'}
+[33.235199] (-) TimerEvent: {}
+[33.335839] (-) TimerEvent: {}
+[33.384068] (vesc_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__python.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o\x1b[0m\n'}
+[33.389142] (vesc_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__python.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o\x1b[0m\n'}
+[33.401728] (vesc_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__python.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o\x1b[0m\n'}
+[33.404131] (vesc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__python.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o\x1b[0m\n'}
+[33.436024] (-) TimerEvent: {}
+[33.536921] (-) TimerEvent: {}
+[33.637621] (-) TimerEvent: {}
+[33.738351] (-) TimerEvent: {}
+[33.846925] (-) TimerEvent: {}
+[33.947768] (-) TimerEvent: {}
+[33.983819] (vesc_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__python.so\x1b[0m\n'}
+[34.048013] (-) TimerEvent: {}
+[34.148755] (-) TimerEvent: {}
+[34.155623] (vesc_msgs) StdoutLine: {'line': b'[ 89%] Built target vesc_msgs__python\n'}
+[34.195193] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[34.195805] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[34.196232] (vesc_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[34.249050] (-) TimerEvent: {}
+[34.272346] (vesc_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[34.286294] (vesc_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[34.298229] (vesc_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[34.349262] (-) TimerEvent: {}
+[34.451471] (-) TimerEvent: {}
+[34.552194] (-) TimerEvent: {}
+[34.652931] (-) TimerEvent: {}
+[34.682200] (vesc_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[34.703542] (vesc_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[34.714652] (vesc_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[34.753185] (-) TimerEvent: {}
+[34.853942] (-) TimerEvent: {}
+[34.864509] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_c__pyext\n'}
+[34.886183] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[34.954124] (-) TimerEvent: {}
+[35.008555] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[35.050297] (vesc_msgs) CommandEnded: {'returncode': 0}
+[35.055942] (-) TimerEvent: {}
+[35.157322] (-) TimerEvent: {}
+[35.257969] (-) TimerEvent: {}
+[35.321220] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'install'}
+[35.358279] (-) TimerEvent: {}
+[35.362003] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/vesc_msgs'], 'cwd': '/root/ros2_ws/build/vesc_msgs', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[35.398139] (vesc_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.399188] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs\n'}
+[35.399884] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.400454] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.400919] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h\n'}
+[35.401473] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h\n'}
+[35.401906] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h\n'}
+[35.402320] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h\n'}
+[35.402731] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[35.403183] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.403561] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h\n'}
+[35.403938] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h\n'}
+[35.404324] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h\n'}
+[35.404716] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h\n'}
+[35.405190] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h\n'}
+[35.405596] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h\n'}
+[35.405968] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h\n'}
+[35.406411] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h\n'}
+[35.406760] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c\n'}
+[35.407244] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.c\n'}
+[35.407628] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.c\n'}
+[35.408007] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h\n'}
+[35.408381] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h\n'}
+[35.408752] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h\n'}
+[35.409131] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.c\n'}
+[35.409475] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h\n'}
+[35.409866] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh\n'}
+[35.410349] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv\n'}
+[35.411132] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so\n'}
+[35.412525] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so" to ""\n'}
+[35.412984] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.413406] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.413837] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[35.415813] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.416398] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[35.416771] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h\n'}
+[35.417104] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[35.417420] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[35.417843] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[35.418334] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[35.418718] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.419185] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.419566] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[35.419926] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.420290] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/dds_fastrtps\n'}
+[35.420653] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[35.420990] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[35.421345] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[35.421749] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[35.422076] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[35.422826] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[35.423301] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.423686] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.424102] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[35.424417] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.424774] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h\n'}
+[35.425135] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.c\n'}
+[35.425498] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h\n'}
+[35.425873] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h\n'}
+[35.426193] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.c\n'}
+[35.426567] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c\n'}
+[35.426991] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h\n'}
+[35.427379] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c\n'}
+[35.427954] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so\n'}
+[35.429276] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[35.430254] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so\n'}
+[35.431180] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so" to ""\n'}
+[35.434542] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.435815] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.436468] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp\n'}
+[35.436891] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp\n'}
+[35.437276] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp\n'}
+[35.437637] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.438293] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp\n'}
+[35.438643] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp\n'}
+[35.439118] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp\n'}
+[35.439513] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp\n'}
+[35.439880] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp\n'}
+[35.440247] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp\n'}
+[35.440609] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp\n'}
+[35.440976] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp\n'}
+[35.441337] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp\n'}
+[35.441672] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp\n'}
+[35.442125] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp\n'}
+[35.442538] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp\n'}
+[35.442971] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp\n'}
+[35.443312] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp\n'}
+[35.443740] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp\n'}
+[35.444140] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp\n'}
+[35.444517] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp\n'}
+[35.444870] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[35.445186] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs\n'}
+[35.445556] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg\n'}
+[35.445923] (vesc_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail\n'}
+[35.446249] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp\n'}
+[35.446655] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[35.447169] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.cpp\n'}
+[35.447550] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.cpp\n'}
+[35.447926] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[35.448407] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp\n'}
+[35.449074] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[35.449493] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[35.449875] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[35.450374] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[35.450725] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so\n'}
+[35.451233] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[35.451580] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh\n'}
+[35.451968] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv\n'}
+[35.452329] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py\n'}
+[35.458384] (-) TimerEvent: {}
+[35.559129] (-) TimerEvent: {}
+[35.566615] (vesc_msgs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py'...\n"}
+[35.587059] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg\n'}
+[35.587824] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py\n'}
+[35.588472] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py\n'}
+[35.589095] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py\n'}
+[35.589746] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c\n'}
+[35.590316] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py\n'}
+[35.591085] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_s.c\n'}
+[35.591742] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_s.c\n'}
+[35.592233] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py\n'}
+[35.592634] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c\n'}
+[35.593214] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.594550] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.595306] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.597009] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.597714] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.599982] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.600644] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__python.so\n'}
+[35.601802] (vesc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_msgs/lib/libvesc_msgs__python.so" to ""\n'}
+[35.602325] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl\n'}
+[35.603170] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl\n'}
+[35.603847] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl\n'}
+[35.604317] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl\n'}
+[35.604800] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg\n'}
+[35.605302] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg\n'}
+[35.605828] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg\n'}
+[35.606309] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg\n'}
+[35.607054] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs\n'}
+[35.607797] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs\n'}
+[35.608370] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh\n'}
+[35.608947] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv\n'}
+[35.609498] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh\n'}
+[35.610134] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv\n'}
+[35.610660] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash\n'}
+[35.611212] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh\n'}
+[35.611721] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh\n'}
+[35.612214] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv\n'}
+[35.612688] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.dsv\n'}
+[35.613430] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs\n'}
+[35.614392] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake\n'}
+[35.615155] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[35.616195] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[35.616909] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[35.617720] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake\n'}
+[35.618331] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[35.619167] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake\n'}
+[35.619848] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[35.620501] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[35.621160] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[35.621760] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[35.622327] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[35.622909] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.623503] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[35.624092] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[35.624645] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.625201] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[35.625744] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[35.626286] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake\n'}
+[35.626755] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake\n'}
+[35.627324] (vesc_msgs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_msgs/share/vesc_msgs/package.xml\n'}
+[35.634451] (vesc_msgs) CommandEnded: {'returncode': 0}
+[35.659922] (-) TimerEvent: {}
+[35.760610] (-) TimerEvent: {}
+[35.861415] (-) TimerEvent: {}
+[35.962039] (-) TimerEvent: {}
+[36.066648] (-) TimerEvent: {}
+[36.078395] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 0}
+[36.091848] (vesc_ackermann) JobStarted: {'identifier': 'vesc_ackermann'}
+[36.113088] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[36.152989] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'cmake'}
+[36.154441] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/vesc/vesc_ackermann', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc_ackermann'], 'cwd': '/root/ros2_ws/build/vesc_ackermann', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_ackermann'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[36.166904] (-) TimerEvent: {}
+[36.168145] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'cmake'}
+[36.168928] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/vesc/vesc_driver', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc_driver'], 'cwd': '/root/ros2_ws/build/vesc_driver', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[36.267119] (-) TimerEvent: {}
+[36.368082] (-) TimerEvent: {}
+[36.385581] (vesc_ackermann) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[36.394335] (vesc_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[36.468245] (-) TimerEvent: {}
+[36.568944] (-) TimerEvent: {}
+[36.601142] (vesc_ackermann) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[36.608133] (vesc_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[36.618532] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[36.625284] (vesc_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[36.669178] (-) TimerEvent: {}
+[36.769859] (-) TimerEvent: {}
+[36.870568] (-) TimerEvent: {}
+[36.873313] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[36.876772] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[36.879692] (vesc_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[36.882875] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[36.970880] (-) TimerEvent: {}
+[37.071604] (-) TimerEvent: {}
+[37.134091] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.139806] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.171766] (-) TimerEvent: {}
+[37.183425] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.184006] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.187748] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.189031] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.193039] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[37.199958] (vesc_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[37.271952] (-) TimerEvent: {}
+[37.372678] (-) TimerEvent: {}
+[37.473366] (-) TimerEvent: {}
+[37.485677] (vesc_ackermann) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[37.489609] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[37.490270] (vesc_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[37.493633] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[37.573600] (-) TimerEvent: {}
+[37.674362] (-) TimerEvent: {}
+[37.775163] (-) TimerEvent: {}
+[37.783465] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[37.788260] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[37.833843] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[37.836525] (vesc_ackermann) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[37.838044] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[37.840269] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[37.848944] (vesc_ackermann) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[37.852041] (vesc_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[37.875321] (-) TimerEvent: {}
+[37.965256] (vesc_ackermann) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[37.966060] (vesc_ackermann) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[37.966801] (vesc_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[37.967529] (vesc_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[37.975531] (-) TimerEvent: {}
+[38.076190] (-) TimerEvent: {}
+[38.176930] (-) TimerEvent: {}
+[38.277651] (-) TimerEvent: {}
+[38.378409] (-) TimerEvent: {}
+[38.479821] (-) TimerEvent: {}
+[38.580542] (-) TimerEvent: {}
+[38.681322] (-) TimerEvent: {}
+[38.782026] (-) TimerEvent: {}
+[38.882738] (-) TimerEvent: {}
+[38.984389] (-) TimerEvent: {}
+[39.085096] (-) TimerEvent: {}
+[39.134609] (vesc_ackermann) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[39.171829] (vesc_ackermann) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[39.185309] (-) TimerEvent: {}
+[39.240027] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[39.276893] (vesc_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[39.285478] (-) TimerEvent: {}
+[39.386169] (-) TimerEvent: {}
+[39.487081] (-) TimerEvent: {}
+[39.522579] (vesc_ackermann) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[39.587293] (-) TimerEvent: {}
+[39.624334] (vesc_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[39.645925] (vesc_ackermann) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[39.687467] (-) TimerEvent: {}
+[39.752357] (vesc_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[39.787698] (-) TimerEvent: {}
+[39.888815] (-) TimerEvent: {}
+[39.989489] (-) TimerEvent: {}
+[40.023622] (vesc_ackermann) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[40.089710] (-) TimerEvent: {}
+[40.119253] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[40.189938] (-) TimerEvent: {}
+[40.290617] (-) TimerEvent: {}
+[40.391307] (-) TimerEvent: {}
+[40.430483] (vesc_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[40.440097] (vesc_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[40.446014] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[40.492661] (-) TimerEvent: {}
+[40.593397] (-) TimerEvent: {}
+[40.694146] (-) TimerEvent: {}
+[40.723437] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[40.725015] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[40.794386] (-) TimerEvent: {}
+[40.895108] (-) TimerEvent: {}
+[40.994629] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[40.995281] (-) TimerEvent: {}
+[40.995876] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[41.095467] (-) TimerEvent: {}
+[41.176404] (vesc_ackermann) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[41.182660] (vesc_ackermann) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[41.185991] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[41.195640] (-) TimerEvent: {}
+[41.207371] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[41.209307] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[41.295862] (-) TimerEvent: {}
+[41.396572] (-) TimerEvent: {}
+[41.462883] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[41.463839] (vesc_ackermann) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[41.479160] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[41.483020] (vesc_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[41.496745] (-) TimerEvent: {}
+[41.597544] (-) TimerEvent: {}
+[41.698353] (-) TimerEvent: {}
+[41.740217] (vesc_ackermann) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[41.740887] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[41.798604] (-) TimerEvent: {}
+[41.899319] (-) TimerEvent: {}
+[41.951613] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[41.952441] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[41.999488] (-) TimerEvent: {}
+[42.102309] (-) TimerEvent: {}
+[42.203178] (-) TimerEvent: {}
+[42.205748] (vesc_ackermann) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[42.209585] (vesc_ackermann) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[42.303468] (-) TimerEvent: {}
+[42.404171] (-) TimerEvent: {}
+[42.504899] (-) TimerEvent: {}
+[42.605561] (-) TimerEvent: {}
+[42.706283] (-) TimerEvent: {}
+[42.807041] (-) TimerEvent: {}
+[42.907700] (-) TimerEvent: {}
+[43.008400] (-) TimerEvent: {}
+[43.109098] (-) TimerEvent: {}
+[43.209815] (-) TimerEvent: {}
+[43.310526] (-) TimerEvent: {}
+[43.411225] (-) TimerEvent: {}
+[43.511872] (-) TimerEvent: {}
+[43.612582] (-) TimerEvent: {}
+[43.713237] (-) TimerEvent: {}
+[43.814026] (-) TimerEvent: {}
+[43.914838] (-) TimerEvent: {}
+[44.015488] (-) TimerEvent: {}
+[44.116350] (-) TimerEvent: {}
+[44.217048] (-) TimerEvent: {}
+[44.317701] (-) TimerEvent: {}
+[44.421961] (-) TimerEvent: {}
+[44.522670] (-) TimerEvent: {}
+[44.623403] (-) TimerEvent: {}
+[44.724071] (-) TimerEvent: {}
+[44.824759] (-) TimerEvent: {}
+[44.927121] (-) TimerEvent: {}
+[44.944051] (vesc_ackermann) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[45.027382] (-) TimerEvent: {}
+[45.053681] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[45.060389] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[45.061347] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/vesc/vesc_ackermann/include\n'}
+[45.061836] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[45.066682] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[45.067489] (vesc_ackermann) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[45.070283] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[45.076171] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[45.076699] (vesc_ackermann) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[45.078249] (vesc_ackermann) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[45.104158] (vesc_ackermann) StdoutLine: {'line': b'-- Configuring done\n'}
+[45.127610] (-) TimerEvent: {}
+[45.192473] (vesc_ackermann) StdoutLine: {'line': b'-- Generating done\n'}
+[45.199499] (vesc_ackermann) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/vesc_ackermann\n'}
+[45.227848] (-) TimerEvent: {}
+[45.234215] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[45.236400] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'build'}
+[45.237569] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/vesc_ackermann', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/vesc_ackermann', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_ackermann'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[45.328126] (-) TimerEvent: {}
+[45.332677] (vesc_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[45.404190] (vesc_ackermann) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ackermann_to_vesc_node\x1b[0m\n'}
+[45.415478] (vesc_ackermann) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_ackermann\x1b[0m\n'}
+[45.417386] (vesc_ackermann) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_to_odom_node\x1b[0m\n'}
+[45.428257] (-) TimerEvent: {}
+[45.464957] (vesc_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[45.475240] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[45.477871] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/vesc/vesc_driver/include\n'}
+[45.478372] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[45.486843] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[45.487475] (vesc_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[45.490008] (vesc_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[45.493797] (vesc_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[45.496610] (vesc_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[45.505156] (vesc_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[45.505759] (vesc_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[45.508096] (vesc_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[45.528422] (-) TimerEvent: {}
+[45.540162] (vesc_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[45.628582] (-) TimerEvent: {}
+[45.729296] (-) TimerEvent: {}
+[45.821312] (vesc_ackermann) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o\x1b[0m\n'}
+[45.821979] (vesc_ackermann) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o\x1b[0m\n'}
+[45.829467] (-) TimerEvent: {}
+[45.851142] (vesc_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[45.860205] (vesc_driver) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/vesc_driver\n'}
+[45.898478] (vesc_driver) CommandEnded: {'returncode': 0}
+[45.907880] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'build'}
+[45.908496] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/vesc_driver', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/vesc_driver', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[45.925326] (vesc_ackermann) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o\x1b[0m\n'}
+[45.929662] (-) TimerEvent: {}
+[45.972041] (vesc_ackermann) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o\x1b[0m\n'}
+[46.029858] (-) TimerEvent: {}
+[46.130826] (-) TimerEvent: {}
+[46.231886] (-) TimerEvent: {}
+[46.279279] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_driver\x1b[0m\n'}
+[46.294242] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_driver_node\x1b[0m\n'}
+[46.332088] (-) TimerEvent: {}
+[46.432896] (-) TimerEvent: {}
+[46.533652] (-) TimerEvent: {}
+[46.634421] (-) TimerEvent: {}
+[46.695555] (vesc_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o\x1b[0m\n'}
+[46.734625] (-) TimerEvent: {}
+[46.761778] (vesc_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o\x1b[0m\n'}
+[46.786368] (vesc_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o\x1b[0m\n'}
+[46.811913] (vesc_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o\x1b[0m\n'}
+[46.834885] (-) TimerEvent: {}
+[46.935621] (-) TimerEvent: {}
+[47.038740] (-) TimerEvent: {}
+[47.140831] (-) TimerEvent: {}
+[47.242909] (-) TimerEvent: {}
+[47.345097] (-) TimerEvent: {}
+[47.447322] (-) TimerEvent: {}
+[47.550543] (-) TimerEvent: {}
+[47.652960] (-) TimerEvent: {}
+[47.757645] (-) TimerEvent: {}
+[47.862991] (-) TimerEvent: {}
+[47.965227] (-) TimerEvent: {}
+[48.067595] (-) TimerEvent: {}
+[48.168363] (-) TimerEvent: {}
+[48.269133] (-) TimerEvent: {}
+[48.369904] (-) TimerEvent: {}
+[48.488250] (-) TimerEvent: {}
+[48.589085] (-) TimerEvent: {}
+[48.691082] (-) TimerEvent: {}
+[48.798310] (-) TimerEvent: {}
+[48.916760] (-) TimerEvent: {}
+[49.018951] (-) TimerEvent: {}
+[49.121170] (-) TimerEvent: {}
+[49.223563] (-) TimerEvent: {}
+[49.325931] (-) TimerEvent: {}
+[49.428297] (-) TimerEvent: {}
+[49.532922] (-) TimerEvent: {}
+[49.635334] (-) TimerEvent: {}
+[49.736308] (-) TimerEvent: {}
+[49.840044] (-) TimerEvent: {}
+[49.954915] (-) TimerEvent: {}
+[50.062927] (-) TimerEvent: {}
+[50.166923] (-) TimerEvent: {}
+[50.267715] (-) TimerEvent: {}
+[50.369234] (-) TimerEvent: {}
+[50.477627] (-) TimerEvent: {}
+[50.579940] (-) TimerEvent: {}
+[50.682237] (-) TimerEvent: {}
+[50.787103] (-) TimerEvent: {}
+[50.887889] (-) TimerEvent: {}
+[50.988684] (-) TimerEvent: {}
+[51.090991] (-) TimerEvent: {}
+[51.193378] (-) TimerEvent: {}
+[51.295794] (-) TimerEvent: {}
+[51.398131] (-) TimerEvent: {}
+[51.500526] (-) TimerEvent: {}
+[51.615308] (-) TimerEvent: {}
+[51.716059] (-) TimerEvent: {}
+[51.874939] (-) TimerEvent: {}
+[51.975680] (-) TimerEvent: {}
+[52.082959] (-) TimerEvent: {}
+[52.183852] (-) TimerEvent: {}
+[52.284753] (-) TimerEvent: {}
+[52.386866] (-) TimerEvent: {}
+[52.488860] (-) TimerEvent: {}
+[52.590418] (-) TimerEvent: {}
+[52.691826] (-) TimerEvent: {}
+[52.794082] (-) TimerEvent: {}
+[52.895726] (-) TimerEvent: {}
+[52.997695] (-) TimerEvent: {}
+[53.099676] (-) TimerEvent: {}
+[53.201580] (-) TimerEvent: {}
+[53.303945] (-) TimerEvent: {}
+[53.404764] (-) TimerEvent: {}
+[53.507230] (-) TimerEvent: {}
+[53.608926] (-) TimerEvent: {}
+[53.709908] (-) TimerEvent: {}
+[53.812278] (-) TimerEvent: {}
+[53.914662] (-) TimerEvent: {}
+[54.017014] (-) TimerEvent: {}
+[54.118607] (-) TimerEvent: {}
+[54.220970] (-) TimerEvent: {}
+[54.323303] (-) TimerEvent: {}
+[54.427767] (-) TimerEvent: {}
+[54.529399] (-) TimerEvent: {}
+[54.631080] (-) TimerEvent: {}
+[54.732671] (-) TimerEvent: {}
+[54.834449] (-) TimerEvent: {}
+[54.936776] (-) TimerEvent: {}
+[55.024934] (vesc_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o\x1b[0m\n'}
+[55.036980] (-) TimerEvent: {}
+[55.139283] (-) TimerEvent: {}
+[55.240711] (-) TimerEvent: {}
+[55.341500] (-) TimerEvent: {}
+[55.442880] (-) TimerEvent: {}
+[55.564711] (-) TimerEvent: {}
+[55.665478] (-) TimerEvent: {}
+[55.766254] (-) TimerEvent: {}
+[55.867060] (-) TimerEvent: {}
+[55.972670] (-) TimerEvent: {}
+[56.076754] (-) TimerEvent: {}
+[56.178256] (-) TimerEvent: {}
+[56.282944] (-) TimerEvent: {}
+[56.387485] (-) TimerEvent: {}
+[56.488460] (-) TimerEvent: {}
+[56.590827] (-) TimerEvent: {}
+[56.693181] (-) TimerEvent: {}
+[56.795424] (-) TimerEvent: {}
+[56.897794] (-) TimerEvent: {}
+[57.000137] (-) TimerEvent: {}
+[57.102396] (-) TimerEvent: {}
+[57.204769] (-) TimerEvent: {}
+[57.305539] (-) TimerEvent: {}
+[57.406288] (-) TimerEvent: {}
+[57.507068] (-) TimerEvent: {}
+[57.608894] (-) TimerEvent: {}
+[57.711180] (-) TimerEvent: {}
+[57.813388] (-) TimerEvent: {}
+[57.915649] (-) TimerEvent: {}
+[58.016409] (-) TimerEvent: {}
+[58.117168] (-) TimerEvent: {}
+[58.217933] (-) TimerEvent: {}
+[58.318686] (-) TimerEvent: {}
+[58.419499] (-) TimerEvent: {}
+[58.520261] (-) TimerEvent: {}
+[58.621021] (-) TimerEvent: {}
+[58.722652] (-) TimerEvent: {}
+[58.823932] (-) TimerEvent: {}
+[58.925732] (-) TimerEvent: {}
+[59.029444] (-) TimerEvent: {}
+[59.132883] (-) TimerEvent: {}
+[59.234898] (-) TimerEvent: {}
+[59.336777] (-) TimerEvent: {}
+[59.438113] (-) TimerEvent: {}
+[59.540338] (-) TimerEvent: {}
+[59.642400] (-) TimerEvent: {}
+[59.746591] (-) TimerEvent: {}
+[59.848889] (-) TimerEvent: {}
+[59.951231] (-) TimerEvent: {}
+[60.053599] (-) TimerEvent: {}
+[60.155980] (-) TimerEvent: {}
+[60.259007] (-) TimerEvent: {}
+[60.359840] (-) TimerEvent: {}
+[60.462481] (-) TimerEvent: {}
+[60.598925] (-) TimerEvent: {}
+[60.719543] (-) TimerEvent: {}
+[60.820799] (-) TimerEvent: {}
+[60.923194] (-) TimerEvent: {}
+[61.030959] (-) TimerEvent: {}
+[61.159433] (-) TimerEvent: {}
+[61.260228] (-) TimerEvent: {}
+[61.363002] (-) TimerEvent: {}
+[61.463837] (-) TimerEvent: {}
+[61.566293] (-) TimerEvent: {}
+[61.679074] (-) TimerEvent: {}
+[61.780686] (-) TimerEvent: {}
+[61.885075] (-) TimerEvent: {}
+[61.987622] (-) TimerEvent: {}
+[62.089916] (-) TimerEvent: {}
+[62.193919] (-) TimerEvent: {}
+[62.295834] (-) TimerEvent: {}
+[62.398000] (-) TimerEvent: {}
+[62.499574] (-) TimerEvent: {}
+[62.600347] (-) TimerEvent: {}
+[62.701901] (-) TimerEvent: {}
+[62.802918] (-) TimerEvent: {}
+[62.903882] (-) TimerEvent: {}
+[63.004857] (-) TimerEvent: {}
+[63.105607] (-) TimerEvent: {}
+[63.206381] (-) TimerEvent: {}
+[63.307297] (-) TimerEvent: {}
+[63.415076] (-) TimerEvent: {}
+[63.522639] (-) TimerEvent: {}
+[63.626023] (-) TimerEvent: {}
+[63.727496] (-) TimerEvent: {}
+[63.833514] (-) TimerEvent: {}
+[63.935637] (-) TimerEvent: {}
+[64.038504] (-) TimerEvent: {}
+[64.141422] (-) TimerEvent: {}
+[64.243792] (-) TimerEvent: {}
+[64.345241] (-) TimerEvent: {}
+[64.446667] (-) TimerEvent: {}
+[64.548803] (-) TimerEvent: {}
+[64.650917] (-) TimerEvent: {}
+[64.753373] (-) TimerEvent: {}
+[64.861704] (-) TimerEvent: {}
+[64.964805] (-) TimerEvent: {}
+[65.067373] (-) TimerEvent: {}
+[65.168992] (-) TimerEvent: {}
+[65.269839] (-) TimerEvent: {}
+[65.370694] (-) TimerEvent: {}
+[65.471999] (-) TimerEvent: {}
+[65.578182] (-) TimerEvent: {}
+[65.679211] (-) TimerEvent: {}
+[65.780197] (-) TimerEvent: {}
+[65.881187] (-) TimerEvent: {}
+[65.982195] (-) TimerEvent: {}
+[66.082934] (-) TimerEvent: {}
+[66.200171] (-) TimerEvent: {}
+[66.330063] (-) TimerEvent: {}
+[66.431277] (-) TimerEvent: {}
+[66.532731] (-) TimerEvent: {}
+[66.634242] (-) TimerEvent: {}
+[66.736533] (-) TimerEvent: {}
+[66.838526] (-) TimerEvent: {}
+[66.941128] (-) TimerEvent: {}
+[67.041950] (-) TimerEvent: {}
+[67.142806] (-) TimerEvent: {}
+[67.244161] (-) TimerEvent: {}
+[67.344917] (-) TimerEvent: {}
+[67.445701] (-) TimerEvent: {}
+[67.546490] (-) TimerEvent: {}
+[67.649329] (-) TimerEvent: {}
+[67.750273] (-) TimerEvent: {}
+[67.852099] (-) TimerEvent: {}
+[67.956061] (-) TimerEvent: {}
+[68.061626] (-) TimerEvent: {}
+[68.163420] (-) TimerEvent: {}
+[68.267461] (-) TimerEvent: {}
+[68.368923] (-) TimerEvent: {}
+[68.470687] (-) TimerEvent: {}
+[68.572540] (-) TimerEvent: {}
+[68.674956] (-) TimerEvent: {}
+[68.775728] (-) TimerEvent: {}
+[68.876481] (-) TimerEvent: {}
+[68.978868] (-) TimerEvent: {}
+[69.079612] (-) TimerEvent: {}
+[69.180377] (-) TimerEvent: {}
+[69.281146] (-) TimerEvent: {}
+[69.385756] (-) TimerEvent: {}
+[69.488113] (-) TimerEvent: {}
+[69.588894] (-) TimerEvent: {}
+[69.689669] (-) TimerEvent: {}
+[69.790444] (-) TimerEvent: {}
+[69.892824] (-) TimerEvent: {}
+[69.994886] (-) TimerEvent: {}
+[70.095819] (-) TimerEvent: {}
+[70.196964] (-) TimerEvent: {}
+[70.300026] (-) TimerEvent: {}
+[70.402131] (-) TimerEvent: {}
+[70.504506] (-) TimerEvent: {}
+[70.608878] (-) TimerEvent: {}
+[70.709714] (-) TimerEvent: {}
+[70.756554] (vesc_ackermann) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable ackermann_to_vesc_node\x1b[0m\n'}
+[70.809920] (-) TimerEvent: {}
+[70.911451] (-) TimerEvent: {}
+[71.013757] (-) TimerEvent: {}
+[71.115937] (-) TimerEvent: {}
+[71.218521] (-) TimerEvent: {}
+[71.315801] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable vesc_to_odom_node\x1b[0m\n'}
+[71.318718] (-) TimerEvent: {}
+[71.420927] (-) TimerEvent: {}
+[71.523209] (-) TimerEvent: {}
+[71.624206] (-) TimerEvent: {}
+[71.726550] (-) TimerEvent: {}
+[71.827908] (-) TimerEvent: {}
+[71.928881] (-) TimerEvent: {}
+[72.029634] (-) TimerEvent: {}
+[72.082020] (vesc_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable vesc_driver_node\x1b[0m\n'}
+[72.129867] (-) TimerEvent: {}
+[72.222562] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] Built target ackermann_to_vesc_node\n'}
+[72.230056] (-) TimerEvent: {}
+[72.331796] (-) TimerEvent: {}
+[72.333063] (vesc_ackermann) StdoutLine: {'line': b'[ 85%] Built target vesc_to_odom_node\n'}
+[72.432015] (-) TimerEvent: {}
+[72.532934] (-) TimerEvent: {}
+[72.633955] (-) TimerEvent: {}
+[72.735981] (-) TimerEvent: {}
+[72.825860] (vesc_driver) StdoutLine: {'line': b'[ 60%] Built target vesc_driver_node\n'}
+[72.836221] (-) TimerEvent: {}
+[72.938500] (-) TimerEvent: {}
+[73.039316] (-) TimerEvent: {}
+[73.140061] (-) TimerEvent: {}
+[73.241792] (-) TimerEvent: {}
+[73.342561] (-) TimerEvent: {}
+[73.443282] (-) TimerEvent: {}
+[73.544017] (-) TimerEvent: {}
+[73.644711] (-) TimerEvent: {}
+[73.745475] (-) TimerEvent: {}
+[73.846235] (-) TimerEvent: {}
+[73.949228] (-) TimerEvent: {}
+[74.050317] (-) TimerEvent: {}
+[74.155658] (-) TimerEvent: {}
+[74.256339] (-) TimerEvent: {}
+[74.357029] (-) TimerEvent: {}
+[74.459369] (-) TimerEvent: {}
+[74.560057] (-) TimerEvent: {}
+[74.660748] (-) TimerEvent: {}
+[74.761522] (-) TimerEvent: {}
+[74.862292] (-) TimerEvent: {}
+[74.963041] (-) TimerEvent: {}
+[75.063738] (-) TimerEvent: {}
+[75.164443] (-) TimerEvent: {}
+[75.265143] (-) TimerEvent: {}
+[75.366195] (-) TimerEvent: {}
+[75.468109] (-) TimerEvent: {}
+[75.569693] (-) TimerEvent: {}
+[75.676899] (-) TimerEvent: {}
+[75.777668] (-) TimerEvent: {}
+[75.878457] (-) TimerEvent: {}
+[75.980564] (-) TimerEvent: {}
+[76.081306] (-) TimerEvent: {}
+[76.182087] (-) TimerEvent: {}
+[76.282921] (-) TimerEvent: {}
+[76.383625] (-) TimerEvent: {}
+[76.484334] (-) TimerEvent: {}
+[76.585039] (-) TimerEvent: {}
+[76.687734] (-) TimerEvent: {}
+[76.788434] (-) TimerEvent: {}
+[76.889203] (-) TimerEvent: {}
+[76.989985] (-) TimerEvent: {}
+[77.090739] (-) TimerEvent: {}
+[77.191560] (-) TimerEvent: {}
+[77.292302] (-) TimerEvent: {}
+[77.393076] (-) TimerEvent: {}
+[77.494937] (-) TimerEvent: {}
+[77.595640] (-) TimerEvent: {}
+[77.696336] (-) TimerEvent: {}
+[77.797040] (-) TimerEvent: {}
+[77.897818] (-) TimerEvent: {}
+[77.998603] (-) TimerEvent: {}
+[78.099369] (-) TimerEvent: {}
+[78.200059] (-) TimerEvent: {}
+[78.300765] (-) TimerEvent: {}
+[78.401539] (-) TimerEvent: {}
+[78.502308] (-) TimerEvent: {}
+[78.605248] (-) TimerEvent: {}
+[78.705950] (-) TimerEvent: {}
+[78.806980] (-) TimerEvent: {}
+[78.907761] (-) TimerEvent: {}
+[79.008626] (-) TimerEvent: {}
+[79.111303] (-) TimerEvent: {}
+[79.213622] (-) TimerEvent: {}
+[79.315350] (-) TimerEvent: {}
+[79.416137] (-) TimerEvent: {}
+[79.516858] (-) TimerEvent: {}
+[79.617627] (-) TimerEvent: {}
+[79.718404] (-) TimerEvent: {}
+[79.819115] (-) TimerEvent: {}
+[79.919811] (-) TimerEvent: {}
+[80.020581] (-) TimerEvent: {}
+[80.121305] (-) TimerEvent: {}
+[80.223364] (-) TimerEvent: {}
+[80.324142] (-) TimerEvent: {}
+[80.424868] (-) TimerEvent: {}
+[80.525609] (-) TimerEvent: {}
+[80.626323] (-) TimerEvent: {}
+[80.727110] (-) TimerEvent: {}
+[80.827871] (-) TimerEvent: {}
+[80.928629] (-) TimerEvent: {}
+[81.029372] (-) TimerEvent: {}
+[81.131730] (-) TimerEvent: {}
+[81.232512] (-) TimerEvent: {}
+[81.333272] (-) TimerEvent: {}
+[81.434050] (-) TimerEvent: {}
+[81.534850] (-) TimerEvent: {}
+[81.635549] (-) TimerEvent: {}
+[81.736906] (-) TimerEvent: {}
+[81.837682] (-) TimerEvent: {}
+[81.938986] (-) TimerEvent: {}
+[82.040801] (-) TimerEvent: {}
+[82.142502] (-) TimerEvent: {}
+[82.244351] (-) TimerEvent: {}
+[82.345055] (-) TimerEvent: {}
+[82.445795] (-) TimerEvent: {}
+[82.546562] (-) TimerEvent: {}
+[82.647333] (-) TimerEvent: {}
+[82.748041] (-) TimerEvent: {}
+[82.848800] (-) TimerEvent: {}
+[82.949554] (-) TimerEvent: {}
+[83.050312] (-) TimerEvent: {}
+[83.151079] (-) TimerEvent: {}
+[83.251779] (-) TimerEvent: {}
+[83.352494] (-) TimerEvent: {}
+[83.453279] (-) TimerEvent: {}
+[83.554053] (-) TimerEvent: {}
+[83.654860] (-) TimerEvent: {}
+[83.755656] (-) TimerEvent: {}
+[83.858743] (-) TimerEvent: {}
+[83.959527] (-) TimerEvent: {}
+[84.060221] (-) TimerEvent: {}
+[84.160938] (-) TimerEvent: {}
+[84.261701] (-) TimerEvent: {}
+[84.364582] (-) TimerEvent: {}
+[84.466738] (-) TimerEvent: {}
+[84.567454] (-) TimerEvent: {}
+[84.668157] (-) TimerEvent: {}
+[84.768939] (-) TimerEvent: {}
+[84.869709] (-) TimerEvent: {}
+[84.970424] (-) TimerEvent: {}
+[85.071174] (-) TimerEvent: {}
+[85.171867] (-) TimerEvent: {}
+[85.272616] (-) TimerEvent: {}
+[85.373305] (-) TimerEvent: {}
+[85.476076] (-) TimerEvent: {}
+[85.576767] (-) TimerEvent: {}
+[85.677481] (-) TimerEvent: {}
+[85.778243] (-) TimerEvent: {}
+[85.878936] (-) TimerEvent: {}
+[85.979700] (-) TimerEvent: {}
+[86.082929] (-) TimerEvent: {}
+[86.186927] (-) TimerEvent: {}
+[86.290930] (-) TimerEvent: {}
+[86.391696] (-) TimerEvent: {}
+[86.492421] (-) TimerEvent: {}
+[86.595044] (-) TimerEvent: {}
+[86.698945] (-) TimerEvent: {}
+[86.799770] (-) TimerEvent: {}
+[86.900691] (-) TimerEvent: {}
+[87.001958] (-) TimerEvent: {}
+[87.102918] (-) TimerEvent: {}
+[87.203706] (-) TimerEvent: {}
+[87.304496] (-) TimerEvent: {}
+[87.405236] (-) TimerEvent: {}
+[87.506013] (-) TimerEvent: {}
+[87.606815] (-) TimerEvent: {}
+[87.707474] (-) TimerEvent: {}
+[87.808279] (-) TimerEvent: {}
+[87.908965] (-) TimerEvent: {}
+[88.009654] (-) TimerEvent: {}
+[88.110360] (-) TimerEvent: {}
+[88.211117] (-) TimerEvent: {}
+[88.311838] (-) TimerEvent: {}
+[88.412528] (-) TimerEvent: {}
+[88.513278] (-) TimerEvent: {}
+[88.613994] (-) TimerEvent: {}
+[88.714760] (-) TimerEvent: {}
+[88.815490] (-) TimerEvent: {}
+[88.916208] (-) TimerEvent: {}
+[89.016933] (-) TimerEvent: {}
+[89.117607] (-) TimerEvent: {}
+[89.218337] (-) TimerEvent: {}
+[89.319102] (-) TimerEvent: {}
+[89.419835] (-) TimerEvent: {}
+[89.520576] (-) TimerEvent: {}
+[89.621371] (-) TimerEvent: {}
+[89.722152] (-) TimerEvent: {}
+[89.822908] (-) TimerEvent: {}
+[89.923641] (-) TimerEvent: {}
+[90.024379] (-) TimerEvent: {}
+[90.125167] (-) TimerEvent: {}
+[90.225946] (-) TimerEvent: {}
+[90.326685] (-) TimerEvent: {}
+[90.427409] (-) TimerEvent: {}
+[90.528174] (-) TimerEvent: {}
+[90.628897] (-) TimerEvent: {}
+[90.729640] (-) TimerEvent: {}
+[90.830377] (-) TimerEvent: {}
+[90.931119] (-) TimerEvent: {}
+[91.031855] (-) TimerEvent: {}
+[91.132552] (-) TimerEvent: {}
+[91.233199] (-) TimerEvent: {}
+[91.333906] (-) TimerEvent: {}
+[91.434616] (-) TimerEvent: {}
+[91.535337] (-) TimerEvent: {}
+[91.636006] (-) TimerEvent: {}
+[91.736720] (-) TimerEvent: {}
+[91.837464] (-) TimerEvent: {}
+[91.938224] (-) TimerEvent: {}
+[92.038901] (-) TimerEvent: {}
+[92.139603] (-) TimerEvent: {}
+[92.240257] (-) TimerEvent: {}
+[92.340978] (-) TimerEvent: {}
+[92.441724] (-) TimerEvent: {}
+[92.542593] (-) TimerEvent: {}
+[92.643384] (-) TimerEvent: {}
+[92.744125] (-) TimerEvent: {}
+[92.844855] (-) TimerEvent: {}
+[92.945619] (-) TimerEvent: {}
+[93.053681] (-) TimerEvent: {}
+[93.063785] (vesc_driver) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_driver.so\x1b[0m\n'}
+[93.153938] (-) TimerEvent: {}
+[93.254887] (-) TimerEvent: {}
+[93.355644] (-) TimerEvent: {}
+[93.456574] (-) TimerEvent: {}
+[93.557477] (-) TimerEvent: {}
+[93.658283] (-) TimerEvent: {}
+[93.692096] (vesc_ackermann) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libvesc_ackermann.so\x1b[0m\n'}
+[93.758494] (-) TimerEvent: {}
+[93.859379] (-) TimerEvent: {}
+[93.960196] (-) TimerEvent: {}
+[94.060989] (-) TimerEvent: {}
+[94.161913] (-) TimerEvent: {}
+[94.262999] (-) TimerEvent: {}
+[94.365829] (-) TimerEvent: {}
+[94.466759] (-) TimerEvent: {}
+[94.567846] (-) TimerEvent: {}
+[94.668629] (-) TimerEvent: {}
+[94.769528] (-) TimerEvent: {}
+[94.870494] (-) TimerEvent: {}
+[94.971432] (-) TimerEvent: {}
+[95.072206] (-) TimerEvent: {}
+[95.173098] (-) TimerEvent: {}
+[95.273953] (-) TimerEvent: {}
+[95.374742] (-) TimerEvent: {}
+[95.455313] (vesc_driver) StdoutLine: {'line': b'[ 70%] Built target vesc_driver\n'}
+[95.474930] (-) TimerEvent: {}
+[95.518470] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_device_namer\x1b[0m\n'}
+[95.575151] (-) TimerEvent: {}
+[95.576737] (vesc_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_namer.cpp.o\x1b[0m\n'}
+[95.675370] (-) TimerEvent: {}
+[95.776047] (-) TimerEvent: {}
+[95.877152] (-) TimerEvent: {}
+[95.977943] (-) TimerEvent: {}
+[96.078665] (-) TimerEvent: {}
+[96.179460] (-) TimerEvent: {}
+[96.201196] (vesc_ackermann) StdoutLine: {'line': b'[100%] Built target vesc_ackermann\n'}
+[96.258175] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[96.279767] (-) TimerEvent: {}
+[96.362619] (vesc_ackermann) JobProgress: {'identifier': 'vesc_ackermann', 'progress': 'install'}
+[96.368973] (vesc_ackermann) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/vesc_ackermann'], 'cwd': '/root/ros2_ws/build/vesc_ackermann', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_ackermann'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[96.380013] (-) TimerEvent: {}
+[96.404859] (vesc_ackermann) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[96.406196] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node\n'}
+[96.409234] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node" to ""\n'}
+[96.410051] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node\n'}
+[96.412677] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node" to ""\n'}
+[96.413727] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/include\n'}
+[96.414854] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/include/vesc_ackermann\n'}
+[96.418386] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp\n'}
+[96.419169] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp\n'}
+[96.427285] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh\n'}
+[96.429110] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv\n'}
+[96.431773] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/lib/libvesc_ackermann.so\n'}
+[96.459226] (vesc_ackermann) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_ackermann/lib/libvesc_ackermann.so" to ""\n'}
+[96.460040] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/launch\n'}
+[96.460669] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.xml\n'}
+[96.461375] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.xml\n'}
+[96.466901] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann\n'}
+[96.468113] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann\n'}
+[96.479478] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh\n'}
+[96.480113] (-) TimerEvent: {}
+[96.482668] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv\n'}
+[96.483390] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh\n'}
+[96.484100] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv\n'}
+[96.484546] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash\n'}
+[96.485307] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh\n'}
+[96.485819] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh\n'}
+[96.486261] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv\n'}
+[96.486679] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/package.dsv\n'}
+[96.487405] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann\n'}
+[96.488286] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann\n'}
+[96.489409] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[96.490433] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[96.491635] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[96.493114] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake\n'}
+[96.493689] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake\n'}
+[96.494172] (vesc_ackermann) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_ackermann/share/vesc_ackermann/package.xml\n'}
+[96.501441] (vesc_ackermann) CommandEnded: {'returncode': 0}
+[96.581041] (-) TimerEvent: {}
+[96.683208] (-) TimerEvent: {}
+[96.767542] (vesc_ackermann) JobEnded: {'identifier': 'vesc_ackermann', 'rc': 0}
+[96.783364] (-) TimerEvent: {}
+[96.884099] (-) TimerEvent: {}
+[96.984750] (-) TimerEvent: {}
+[97.085414] (-) TimerEvent: {}
+[97.186128] (-) TimerEvent: {}
+[97.286881] (-) TimerEvent: {}
+[97.387595] (-) TimerEvent: {}
+[97.488270] (-) TimerEvent: {}
+[97.588998] (-) TimerEvent: {}
+[97.606948] (vesc_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/vesc_device_namer.dir/src/vesc_device_uuid_lookup.cpp.o\x1b[0m\n'}
+[97.689216] (-) TimerEvent: {}
+[97.789931] (-) TimerEvent: {}
+[97.890950] (-) TimerEvent: {}
+[97.991683] (-) TimerEvent: {}
+[98.092376] (-) TimerEvent: {}
+[98.193065] (-) TimerEvent: {}
+[98.293811] (-) TimerEvent: {}
+[98.394502] (-) TimerEvent: {}
+[98.495266] (-) TimerEvent: {}
+[98.595995] (-) TimerEvent: {}
+[98.696691] (-) TimerEvent: {}
+[98.797404] (-) TimerEvent: {}
+[98.898071] (-) TimerEvent: {}
+[98.998844] (-) TimerEvent: {}
+[99.099548] (-) TimerEvent: {}
+[99.200264] (-) TimerEvent: {}
+[99.300967] (-) TimerEvent: {}
+[99.401673] (-) TimerEvent: {}
+[99.502391] (-) TimerEvent: {}
+[99.603126] (-) TimerEvent: {}
+[99.703864] (-) TimerEvent: {}
+[99.804543] (-) TimerEvent: {}
+[99.905211] (-) TimerEvent: {}
+[100.005882] (-) TimerEvent: {}
+[100.061059] (vesc_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vesc_device_namer\x1b[0m\n'}
+[100.106061] (-) TimerEvent: {}
+[100.206867] (-) TimerEvent: {}
+[100.307525] (-) TimerEvent: {}
+[100.408276] (-) TimerEvent: {}
+[100.508944] (-) TimerEvent: {}
+[100.609610] (-) TimerEvent: {}
+[100.710351] (-) TimerEvent: {}
+[100.811109] (-) TimerEvent: {}
+[100.911782] (-) TimerEvent: {}
+[101.012432] (-) TimerEvent: {}
+[101.113166] (-) TimerEvent: {}
+[101.213893] (-) TimerEvent: {}
+[101.255687] (vesc_driver) StdoutLine: {'line': b'[100%] Built target vesc_device_namer\n'}
+[101.297255] (vesc_driver) CommandEnded: {'returncode': 0}
+[101.314236] (-) TimerEvent: {}
+[101.407078] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'install'}
+[101.408274] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/vesc_driver'], 'cwd': '/root/ros2_ws/build/vesc_driver', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[101.414941] (-) TimerEvent: {}
+[101.445353] (vesc_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[101.446857] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node\n'}
+[101.449669] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""\n'}
+[101.450437] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include\n'}
+[101.450977] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver\n'}
+[101.451459] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp\n'}
+[101.451803] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp\n'}
+[101.452250] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp\n'}
+[101.452715] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp\n'}
+[101.453702] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp\n'}
+[101.454120] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/crc.hpp\n'}
+[101.454716] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp\n'}
+[101.456525] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh\n'}
+[101.457537] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv\n'}
+[101.458181] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/lib/libvesc_driver.so\n'}
+[101.479684] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_driver/lib/libvesc_driver.so" to ""\n'}
+[101.480413] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer\n'}
+[101.481774] (vesc_driver) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""\n'}
+[101.482465] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/launch\n'}
+[101.483271] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py\n'}
+[101.484265] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/params\n'}
+[101.484948] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml\n'}
+[101.488229] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver\n'}
+[101.489283] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver\n'}
+[101.489917] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh\n'}
+[101.490482] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv\n'}
+[101.491082] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/path.sh\n'}
+[101.491614] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv\n'}
+[101.492171] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.bash\n'}
+[101.492724] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.sh\n'}
+[101.493274] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh\n'}
+[101.493823] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv\n'}
+[101.494387] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/package.dsv\n'}
+[101.495465] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver\n'}
+[101.496634] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver\n'}
+[101.497650] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[101.498668] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[101.499749] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[101.500739] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake\n'}
+[101.501334] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake\n'}
+[101.501969] (vesc_driver) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc_driver/share/vesc_driver/package.xml\n'}
+[101.508777] (vesc_driver) CommandEnded: {'returncode': 0}
+[101.521030] (-) TimerEvent: {}
+[101.621718] (-) TimerEvent: {}
+[101.727310] (-) TimerEvent: {}
+[101.738709] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 0}
+[101.748188] (vesc) JobStarted: {'identifier': 'vesc'}
+[101.821565] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'cmake'}
+[101.822387] (vesc) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/vesc/vesc', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc'], 'cwd': '/root/ros2_ws/build/vesc', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[101.829570] (-) TimerEvent: {}
+[101.930886] (-) TimerEvent: {}
+[102.031616] (-) TimerEvent: {}
+[102.132250] (-) TimerEvent: {}
+[102.232850] (-) TimerEvent: {}
+[102.333560] (-) TimerEvent: {}
+[102.382092] (vesc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[102.433744] (-) TimerEvent: {}
+[102.534417] (-) TimerEvent: {}
+[102.596757] (vesc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[102.625755] (vesc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[102.634637] (-) TimerEvent: {}
+[102.735344] (-) TimerEvent: {}
+[102.836062] (-) TimerEvent: {}
+[102.878004] (vesc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[102.884083] (vesc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[102.936239] (-) TimerEvent: {}
+[103.036967] (-) TimerEvent: {}
+[103.136401] (vesc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[103.137136] (-) TimerEvent: {}
+[103.185782] (vesc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[103.187751] (vesc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[103.199526] (vesc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[103.237374] (-) TimerEvent: {}
+[103.338062] (-) TimerEvent: {}
+[103.438831] (-) TimerEvent: {}
+[103.482475] (vesc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[103.486324] (vesc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[103.538992] (-) TimerEvent: {}
+[103.639613] (-) TimerEvent: {}
+[103.740294] (-) TimerEvent: {}
+[103.772209] (vesc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[103.820262] (vesc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[103.822212] (vesc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[103.840499] (-) TimerEvent: {}
+[103.847311] (vesc) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[103.940714] (-) TimerEvent: {}
+[104.041278] (-) TimerEvent: {}
+[104.062178] (vesc) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[104.062879] (vesc) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[104.141438] (-) TimerEvent: {}
+[104.242089] (-) TimerEvent: {}
+[104.342822] (-) TimerEvent: {}
+[104.443394] (-) TimerEvent: {}
+[104.543949] (-) TimerEvent: {}
+[104.644623] (-) TimerEvent: {}
+[104.745405] (-) TimerEvent: {}
+[104.846071] (-) TimerEvent: {}
+[104.946741] (-) TimerEvent: {}
+[105.047871] (-) TimerEvent: {}
+[105.148467] (-) TimerEvent: {}
+[105.249065] (-) TimerEvent: {}
+[105.349731] (-) TimerEvent: {}
+[105.419844] (vesc) StdoutLine: {'line': b'-- Configuring done\n'}
+[105.428231] (vesc) StdoutLine: {'line': b'-- Generating done\n'}
+[105.431090] (vesc) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/vesc\n'}
+[105.443216] (vesc) CommandEnded: {'returncode': 0}
+[105.445011] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'build'}
+[105.445835] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/vesc', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/vesc', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[105.452106] (-) TimerEvent: {}
+[105.552973] (-) TimerEvent: {}
+[105.595781] (vesc) CommandEnded: {'returncode': 0}
+[105.653205] (-) TimerEvent: {}
+[105.660213] (vesc) JobProgress: {'identifier': 'vesc', 'progress': 'install'}
+[105.661053] (vesc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/vesc'], 'cwd': '/root/ros2_ws/build/vesc', 'env': OrderedDict([('HOSTNAME', 'lmk-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/vesc_driver/lib:/root/ros2_ws/install/vesc_ackermann/lib:/root/ros2_ws/install/vesc_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy'), ('PWD', '/root/ros2_ws/build/vesc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/vesc_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/opt/ros/foxy')]), 'shell': False}
+[105.697815] (vesc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[105.698535] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc\n'}
+[105.699348] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc\n'}
+[105.700017] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh\n'}
+[105.700540] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv\n'}
+[105.701072] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/path.sh\n'}
+[105.701672] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/environment/path.dsv\n'}
+[105.702370] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.bash\n'}
+[105.703007] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.sh\n'}
+[105.703538] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.zsh\n'}
+[105.704056] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/local_setup.dsv\n'}
+[105.704515] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/package.dsv\n'}
+[105.705178] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/ament_index/resource_index/packages/vesc\n'}
+[105.705726] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake\n'}
+[105.706163] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake\n'}
+[105.706633] (vesc) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/vesc/share/vesc/package.xml\n'}
+[105.712582] (vesc) CommandEnded: {'returncode': 0}
+[105.754282] (-) TimerEvent: {}
+[105.860854] (-) TimerEvent: {}
+[105.874618] (vesc) JobEnded: {'identifier': 'vesc', 'rc': 0}
+[105.878156] (-) EventReactorShutdown: {}
