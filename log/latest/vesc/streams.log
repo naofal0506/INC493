@@ -1,0 +1,29 @@
+[0.072s] Invoking command in '/root/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc
+[0.133s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.240s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.910s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.231s] -- Configuring done
+[1.256s] -- Generating done
+[1.259s] -- Build files have been written to: /root/ros2_ws/build/vesc
+[1.268s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/vesc/vesc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/vesc
+[1.275s] Invoking command in '/root/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/vesc -- -j4 -l4
+[1.426s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/vesc -- -j4 -l4
+[1.501s] Invoking command in '/root/ros2_ws/build/vesc': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/build/vesc
+[1.538s] -- Install configuration: ""
+[1.539s] -- Execute custom install script
+[1.544s] -- Symlinking: /root/ros2_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+[1.582s] -- Symlinking: /root/ros2_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+[1.619s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+[1.653s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+[1.687s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/environment/path.sh
+[1.722s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/environment/path.dsv
+[1.758s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/local_setup.bash
+[1.794s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/local_setup.sh
+[1.867s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/local_setup.zsh
+[1.901s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/local_setup.dsv
+[1.937s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/package.dsv
+[1.975s] -- Symlinking: /root/ros2_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+[2.010s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+[2.049s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+[2.085s] -- Symlinking: /root/ros2_ws/install/vesc/share/vesc/package.xml
+[2.140s] Invoked command in '/root/ros2_ws/build/vesc' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/vesc_driver:/root/ros2_ws/install/vesc_ackermann:/root/ros2_ws/install/vesc_msgs:/root/ros2_ws/install/vesc:/root/ros2_ws/install/my_f1tenth_pkg:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/build/vesc

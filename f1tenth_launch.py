@@ -16,13 +16,13 @@ def generate_launch_description():
 
   # ค่าจูน VESC
 
-        'speed_to_erpm_gain': 4614.0,
+        'speed_to_erpm_gain': 3747.1,
 
         'speed_to_erpm_offset': 0.0,
 
         'steering_angle_to_servo_gain': -1.213,
 
-        'steering_angle_to_servo_offset': 0.5304,
+        'steering_angle_to_servo_offset': 0.5,
 
 
         # * ปลดล็อคขีดจำกัด (สำคัญมาก!) *
@@ -84,3 +84,4 @@ def generate_launch_description():
 
     ])
 
+   

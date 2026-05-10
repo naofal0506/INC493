@@ -1,0 +1,5 @@
+[console_scripts]
+newodom_node = my_f1tenth_pkg.newodom:main
+odom_erpm_node = my_f1tenth_pkg.odom_erpm:main
+odom_tacho_node = my_f1tenth_pkg.odom_tacho:main
+

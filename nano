@@ -1,0 +1,99 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Imu
+from geometry_msgs.msg import TransformStamped
+from tf2_ros import TransformBroadcaster
+import smbus2 as smbus
+import time
+import math
+
+class BMI160Node(Node):
+    def __init__(self):
+        super().__init__('bmi160_imu_node')
+        
+        # 1. สร้าง Publisher ตามโจทย์อาจารย์
+        self.publisher_ = self.create_publisher(Imu, '/imu', 10)
+        
+        # 2. สร้าง TF Broadcaster
+        self.tf_broadcaster = TransformBroadcaster(self)
+        
+        # 3. ตั้งเวลา Loop อัพเดทที่ 20Hz (0.05 วินาที)
+        self.timer = self.create_timer(0.05, self.timer_callback)
+        
+        # 4. ตั้งค่า I2C สำหรับ BMI160
+        self.bus = smbus.SMBus(1)
+        self.addr = 0x68  # ถ้า i2cdetect ขึ้น 69 ให้เปลี่ยนตรงนี้เป็น 0x69
+        
+        # ปลุกเซนเซอร์ (Wake up BMI160)
+        # 0x7E คือ Command Register, 0x11 = เปิด Accel, 0x15 = เปิด Gyro
+        self.bus.write_byte_data(self.addr, 0x7E, 0x11) 
+        time.sleep(0.05)
+        self.bus.write_byte_data(self.addr, 0x7E, 0x15) 
+        time.sleep(0.1)
+        self.get_logger().info('BMI160 Initialized Successfully!')
+
+    def read_word(self, reg):
+        # ฟังก์ชันอ่านค่า 16-bit จาก Registers ของ BMI160
+        low = self.bus.read_byte_data(self.addr, reg)
+        high = self.bus.read_byte_data(self.addr, reg + 1)
+        value = (high << 😎 + low
+        if value >= 0x8000:
+            value = -((65535 - value) + 1)
+        return value
+
+    def timer_callback(self):
+        now = self.get_clock().now().to_msg()
+
+        # ==========================================
+        # ส่วนที่ 1: Publish ข้อมูล IMU
+        # ==========================================
+        msg = Imu()
+        msg.header.stamp = now
+        msg.header.frame_id = 'imu_link'
+
+        # อ่านค่าจาก Data Registers ของ BMI160
+        # Accel X เริ่มที่ Register 0x12
+        accel_x_raw = self.read_word(0x12)
+        # Gyro Z เริ่มที่ Register 0x10
+        gyro_z_raw = self.read_word(0x10)
+
+        # แปลงค่าดิบให้เป็นหน่วยมาตรฐาน ROS 2
+        # Accel (+-2g) แปลงเป็น m/s^2 (1g = 9.81 m/s^2)
+        msg.linear_acceleration.x = (accel_x_raw / 16384.0) * 9.81
+        
+        # Gyro (+-2000 deg/s) แปลงเป็น rad/s
+        msg.angular_velocity.z = (gyro_z_raw / 16.4) * (math.pi / 180.0)
+
+        # Publish ออกไปที่ Topic /imu
+        self.publisher_.publish(msg)
+
+        # ==========================================
+        # ส่วนที่ 2: TF Broadcaster (base_link -> imu_link)
+        # ==========================================
+        t = TransformStamped()
+        t.header.stamp = now
+        t.header.frame_id = 'base_link'
+        t.child_frame_id = 'imu_link'
+
+        # สมมติว่าระยะติดตั้งห่างจากจุดกึ่งกลางรถไปด้านหน้า 5 เซนติเมตร (0.05 เมตร)
+        t.transform.translation.x = 0.05
+        t.transform.translation.y = 0.0
+        t.transform.translation.z = 0.0
+
+        # ทิศทางสมมติว่าชี้ตรงไปด้านหน้าเหมือนตัวรถ
+        t.transform.rotation.x = 0.0
+        t.transform.rotation.y = 0.0
+        t.transform.rotation.z = 0.0
+        t.transform.rotation.w = 1.0
+
+        self.tf_broadcaster.sendTransform(t)
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = BMI160Node()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if _name_ == '_main_':
+    main()

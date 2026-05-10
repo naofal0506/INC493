@@ -1,0 +1,20 @@
+[3.497s] Invoking command in '/root/ros2_ws/build/my_f1tenth_pkg': PYTHONPATH=/root/ros2_ws/build/my_f1tenth_pkg/prefix_override:/root/ros2_ws/install/my_f1tenth_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_ws/build/my_f1tenth_pkg/build --no-deps install_data
+[4.446s] running develop
+[4.850s] running egg_info
+[4.852s] writing my_f1tenth_pkg.egg-info/PKG-INFO
+[4.861s] writing dependency_links to my_f1tenth_pkg.egg-info/dependency_links.txt
+[4.862s] writing entry points to my_f1tenth_pkg.egg-info/entry_points.txt
+[4.862s] writing requirements to my_f1tenth_pkg.egg-info/requires.txt
+[4.863s] writing top-level names to my_f1tenth_pkg.egg-info/top_level.txt
+[5.043s] reading manifest file 'my_f1tenth_pkg.egg-info/SOURCES.txt'
+[5.048s] writing manifest file 'my_f1tenth_pkg.egg-info/SOURCES.txt'
+[5.054s] running build_ext
+[5.056s] Creating /root/ros2_ws/install/my_f1tenth_pkg/lib/python3.8/site-packages/site.py
+[5.071s] Creating /root/ros2_ws/install/my_f1tenth_pkg/lib/python3.8/site-packages/my-f1tenth-pkg.egg-link (link to .)
+[5.073s] Installing newodom_node script to /root/ros2_ws/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+[5.073s] Installing odom_erpm_node script to /root/ros2_ws/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+[5.074s] Installing odom_tacho_node script to /root/ros2_ws/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+[5.074s] 
+[5.075s] Installed /root/ros2_ws/build/my_f1tenth_pkg
+[5.088s] running install_data
+[5.202s] Invoked command in '/root/ros2_ws/build/my_f1tenth_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_f1tenth_pkg/prefix_override:/root/ros2_ws/install/my_f1tenth_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ros2_ws/build/my_f1tenth_pkg/build --no-deps install_data

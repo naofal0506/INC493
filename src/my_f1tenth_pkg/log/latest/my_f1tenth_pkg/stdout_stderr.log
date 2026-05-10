@@ -1,0 +1,45 @@
+running egg_info
+creating build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info
+writing build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/PKG-INFO
+writing dependency_links to build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/dependency_links.txt
+writing entry points to build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/entry_points.txt
+writing requirements to build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/requires.txt
+writing top-level names to build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/top_level.txt
+writing manifest file 'build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build
+creating /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib
+creating /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg
+copying my_f1tenth_pkg/newodom.py -> /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg
+copying my_f1tenth_pkg/__init__.py -> /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg
+copying my_f1tenth_pkg/odom_tacho.py -> /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg
+copying my_f1tenth_pkg/odom_erpm.py -> /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg
+running install
+running install_lib
+creating /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg
+copying /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg/newodom.py -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg
+copying /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg/__init__.py -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg
+copying /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg/odom_tacho.py -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg
+copying /root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/build/lib/my_f1tenth_pkg/odom_erpm.py -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg
+byte-compiling /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg/newodom.py to newodom.cpython-38.pyc
+byte-compiling /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg/odom_tacho.py to odom_tacho.cpython-38.pyc
+byte-compiling /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg/odom_erpm.py to odom_erpm.cpython-38.pyc
+running install_data
+creating /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/ament_index
+creating /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/ament_index/resource_index
+creating /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/ament_index/resource_index/packages
+copying resource/my_f1tenth_pkg -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/my_f1tenth_pkg
+creating /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/my_f1tenth_pkg/launch
+copying launch/master_launch.py -> /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/share/my_f1tenth_pkg/launch
+running install_egg_info
+Copying build/my_f1tenth_pkg/my_f1tenth_pkg.egg-info to /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/python3.8/site-packages/my_f1tenth_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing newodom_node script to /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+Installing odom_erpm_node script to /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+Installing odom_tacho_node script to /root/ros2_ws/src/my_f1tenth_pkg/install/my_f1tenth_pkg/lib/my_f1tenth_pkg
+writing list of installed files to '/root/ros2_ws/src/my_f1tenth_pkg/build/my_f1tenth_pkg/install.log'
